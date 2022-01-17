@@ -6,7 +6,6 @@ import textwrap
 import binascii
 import struct
 import sys
-
 TAB_1 = '\t - '
 TAB_2 = '\t\t - '
 TAB_3 = '\t\t\t - '
@@ -18,6 +17,7 @@ DATA_TAB_3 = '\t\t\t   '
 DATA_TAB_4 = '\t\t\t\t   '
 
 def main():
+    sys.stdout = open('output.txt', 'w')
     conn = socket.socket(socket.PF_PACKET, socket.SOCK_RAW, socket.ntohs(3))
 
     filters = (["ICMP", 1, "ICMPv6"],["UDP", 17, "UDP"], ["TCP", 6, "TCP"])
