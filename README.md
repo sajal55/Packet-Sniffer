@@ -19,6 +19,9 @@ Packet Sniffer created in Python 3. Allows you to monitor traffic running throug
 # Commands :
 
 -sudo python3 Packet-Sniffer.py
+
 -sudo python3 Packet-Sniffer.py UDP
+
 -sudo python3 Packet-Sniffer.py ICMP
+
 -sudo python3 Packet-Sniffer.py TCP
