@@ -8,8 +8,7 @@ that can intercept and log traffic that passes over a computer network or part o
 
 ->Sniffers are programs that can capture/sniff/detect network traffic packet by packet and analyse them for various reasons. 
 Commonly used in the field of network security. Wireshark is a very common packet sniffer/protocol analyzer.
-
-->Packet sniffers can be written in python too. 
+ 
 
 
 
@@ -17,7 +16,8 @@ Commonly used in the field of network security. Wireshark is a very common packe
 
 Packet Sniffer created in Python 3. Allows you to monitor traffic running through local network.
 
-Commands :
+# Commands :
+
 -sudo python3 Packet-Sniffer.py
 -sudo python3 Packet-Sniffer.py UDP
 -sudo python3 Packet-Sniffer.py ICMP
