@@ -1,5 +1,5 @@
 # Packet-Sniffer
-Made By: Sajal , Srajan , Mukul , Kuldeep.
+Made By: Sajal Sharma, Srajan Seth , Mukul Singhal , Kuldeep Yadav.
 
 # what is Packet Sniffer?
 
